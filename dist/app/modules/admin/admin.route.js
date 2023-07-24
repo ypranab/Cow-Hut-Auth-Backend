@@ -1,0 +1,20 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AdminRoutes = void 0;
+const express_1 = __importDefault(require("express"));
+const admin_controller_1 = require("./admin.controller");
+const validateRequest_1 = __importDefault(require("../../middleWares/validateRequest"));
+const admin_validation_1 = require("./admin.validation");
+const auth_validation_1 = require("../auth/auth.validation");
+const auth_controller_1 = require("../auth/auth.controller");
+const router = express_1.default.Router();
+router.post("/create-admin", (0, validateRequest_1.default)(admin_validation_1.AdminValidation.createAdminZodSchema), admin_controller_1.AdminController.createAdmin);
+router.post("/login", (0, validateRequest_1.default)(auth_validation_1.AuthValidation.loginZodSchema), auth_controller_1.AuthController.loginAdmin);
+router.post("/refresh-token", (0, validateRequest_1.default)(auth_validation_1.AuthValidation.refreshTokenZodSchema), auth_controller_1.AuthController.refereshTokenAdmin);
+//router.get("/:id", AdminController.getSingleAdmin);
+// router.get('/', AdminController.getAllAdmins);
+// router.delete('/:id', AdminController.deleteAdmin);
+exports.AdminRoutes = router;

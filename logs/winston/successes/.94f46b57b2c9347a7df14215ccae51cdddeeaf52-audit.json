@@ -1,0 +1,85 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Programming Hero Bangla Web Course\\Next level\\Assignment\\Digital-Cow-Hut\\logs\\winston\\successes\\.94f46b57b2c9347a7df14215ccae51cdddeeaf52-audit.json",
+    "files": [
+        {
+            "date": 1687151957151,
+            "name": "D:\\Programming Hero Bangla Web Course\\Next level\\Assignment\\Digital-Cow-Hut\\logs\\winston\\successes\\lse-2023-06-19-11-success.log",
+            "hash": "6d0b710eb21278a8729a53d4b28ce1732d3c185443168684c25fc8f6f38fa74c"
+        },
+        {
+            "date": 1687168574114,
+            "name": "D:\\Programming Hero Bangla Web Course\\Next level\\Assignment\\Digital-Cow-Hut\\logs\\winston\\successes\\lse-2023-06-19-15-success.log",
+            "hash": "c3bde8ab559f783bfbd54b110c54c912347f200763465b1061933980da49a490"
+        },
+        {
+            "date": 1687168840812,
+            "name": "D:\\Programming Hero Bangla Web Course\\Next level\\Assignment\\Digital-Cow-Hut\\logs\\winston\\successes\\lse-2023-06-19-16-success.log",
+            "hash": "aed115f427ed55ce3b4f99f77e86a5fb2aa1bfaa3ae608f4562a3ef8bac3b737"
+        },
+        {
+            "date": 1687172463327,
+            "name": "D:\\Programming Hero Bangla Web Course\\Next level\\Assignment\\Digital-Cow-Hut\\logs\\winston\\successes\\lse-2023-06-19-17-success.log",
+            "hash": "276765964b9fff7d0f348bfd88cfdf56c97e941e561d39c8bf63bb641863c17d"
+        },
+        {
+            "date": 1687225953249,
+            "name": "D:\\Programming Hero Bangla Web Course\\Next level\\Assignment\\Digital-Cow-Hut\\logs\\winston\\successes\\lse-2023-06-20-07-success.log",
+            "hash": "580ca7d2b28000249da569057056ac2a8e9a0c223edc793bb8967f881be888f7"
+        },
+        {
+            "date": 1687228216484,
+            "name": "D:\\Programming Hero Bangla Web Course\\Next level\\Assignment\\Digital-Cow-Hut\\logs\\winston\\successes\\lse-2023-06-20-08-success.log",
+            "hash": "9c0e969ed8dd89250ca0361f0f7024d854671f43dcfdec43b8856f08c5ad8421"
+        },
+        {
+            "date": 1687234825111,
+            "name": "D:\\Programming Hero Bangla Web Course\\Next level\\Assignment\\Digital-Cow-Hut\\logs\\winston\\successes\\lse-2023-06-20-10-success.log",
+            "hash": "14661f565ef72abbc4f5315530fa6304a6a739b4c4c15978b7b66ae2184bd5c9"
+        },
+        {
+            "date": 1687246277668,
+            "name": "D:\\Programming Hero Bangla Web Course\\Next level\\Assignment\\Digital-Cow-Hut\\logs\\winston\\successes\\lse-2023-06-20-13-success.log",
+            "hash": "2621ee715a5b59a9d0460d9ebf95a5148407ddac8287cfb00a03f8f75140eedf"
+        },
+        {
+            "date": 1687248105822,
+            "name": "D:\\Programming Hero Bangla Web Course\\Next level\\Assignment\\Digital-Cow-Hut\\logs\\winston\\successes\\lse-2023-06-20-14-success.log",
+            "hash": "316080702ad2efd10583111db5f12acbe88a1f25abc3fc65bf4b53eb44489e82"
+        },
+        {
+            "date": 1687252434190,
+            "name": "D:\\Programming Hero Bangla Web Course\\Next level\\Assignment\\Digital-Cow-Hut\\logs\\winston\\successes\\lse-2023-06-20-15-success.log",
+            "hash": "15e7966187fffe2ec218e9a0ace9856929b63861936e685d663786f287a2acc5"
+        },
+        {
+            "date": 1687255816798,
+            "name": "D:\\Programming Hero Bangla Web Course\\Next level\\Assignment\\Digital-Cow-Hut\\logs\\winston\\successes\\lse-2023-06-20-16-success.log",
+            "hash": "424a5c09b6ce59aa014abbfd86ca2e0bf63f106d3ccd6a60a62f5f5d94f85272"
+        },
+        {
+            "date": 1687276327495,
+            "name": "D:\\Programming Hero Bangla Web Course\\Next level\\Assignment\\Digital-Cow-Hut\\logs\\winston\\successes\\lse-2023-06-20-21-success.log",
+            "hash": "d4b5dba7f53e3d0387ae617df2e659c2aa5835557f72fd178492eaddbabe9428"
+        },
+        {
+            "date": 1687276867495,
+            "name": "D:\\Programming Hero Bangla Web Course\\Next level\\Assignment\\Digital-Cow-Hut\\logs\\winston\\successes\\lse-2023-06-20-22-success.log",
+            "hash": "ce7780afa55f8bfcac04f723d7da494547ecd593c64ec2568491cf8f3d7fba8e"
+        },
+        {
+            "date": 1687280810288,
+            "name": "D:\\Programming Hero Bangla Web Course\\Next level\\Assignment\\Digital-Cow-Hut\\logs\\winston\\successes\\lse-2023-06-20-23-success.log",
+            "hash": "1266772c874cc5ec0d8d682f1aa3604d064ea2b1f89ac1c7b6cddd21f59764db"
+        },
+        {
+            "date": 1687284130555,
+            "name": "D:\\Programming Hero Bangla Web Course\\Next level\\Assignment\\Digital-Cow-Hut\\logs\\winston\\successes\\lse-2023-06-21-00-success.log",
+            "hash": "8c61749c7a27c5a2fb614e2820ce3145100186f5dbd036524ba427e0b3a43e3a"
+        }
+    ],
+    "hashType": "sha256"
+}

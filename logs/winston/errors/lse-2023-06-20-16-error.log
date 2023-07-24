@@ -1,0 +1,16 @@
+Tue Jun 20 2023 16:28:5 [LSE] error: globalErrorHandler ~~ [
+  {
+    "received": "Milk",
+    "code": "invalid_enum_value",
+    "options": [
+      "Dairy",
+      "Beef",
+      "Dual Purpose"
+    ],
+    "path": [
+      "body",
+      "category"
+    ],
+    "message": "Invalid enum value. Expected 'Dairy' | 'Beef' | 'Dual Purpose', received 'Milk'"
+  }
+]

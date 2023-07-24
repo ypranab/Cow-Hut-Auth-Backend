@@ -1,0 +1,36 @@
+Tue Jun 20 2023 7:58:26 [LSE] error: globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "string",
+    "path": [
+      "body",
+      "seller"
+    ],
+    "message": "Expected object, received string"
+  }
+]
+Tue Jun 20 2023 7:59:33 [LSE] error: globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "string",
+    "path": [
+      "body",
+      "seller"
+    ],
+    "message": "Expected object, received string"
+  }
+]
+Tue Jun 20 2023 7:59:56 [LSE] error: globalErrorHandler ~~ [
+  {
+    "code": "invalid_type",
+    "expected": "object",
+    "received": "string",
+    "path": [
+      "body",
+      "seller"
+    ],
+    "message": "Expected object, received string"
+  }
+]
