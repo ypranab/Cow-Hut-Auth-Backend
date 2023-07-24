@@ -59,7 +59,7 @@ Pagination and Filtering routes of Cows
 
 
 Sample Data: (User as Buyer)
-
+```json
 {
   "_id":"ObjectId(“6473c6a50c56d0d40b9bb6a3)",
   "password":"abrakadabra",
@@ -75,9 +75,10 @@ Sample Data: (User as Buyer)
   "createdAt":"",
   "updatedAt":"",
 }
+```
 
 Sample Data: (User as Seller)
-
+```json
 {
   "_id":"ObjectId(“6473c6a50c56d0d40b9bb6a3)",
   "password":"abrakadabra",
@@ -93,9 +94,9 @@ Sample Data: (User as Seller)
   "createdAt":"",
   "updatedAt":"",
 }
-
+```
 Sample Data: (Cow)
-
+```json
 {
   "name": "Bella",
   "age": 4,
@@ -107,14 +108,14 @@ Sample Data: (Cow)
   "category": "Beef",
   "seller": "ObjectId(609c17fc1281bb001f523456)"
 }
-
+```
 Implement Create, Read, Update, and Delete Operations for Users Listing
 Create a new User
 
 Route: /api/v1/auth/signup (POST)
 
 Request body:
-
+```json
 {
  "password":"abrakadabra",
  "role": "buyer",
@@ -127,18 +128,18 @@ Request body:
  "budget":30000  // money to buy the cow
  "income":0 // By Default 0
 }
-
+```
 Route: /api/v1/auth/login (POST) Request body:
-
+```json
 {
-  "phoneNumber": "01711111111",
-  "password": "amiuserasbuyerasseller"
+  "phoneNumber": "000011119",
+  "password": "abrakadabra"
 }
-
+```
 Admin Routes :
 
 Route: /api/v1/admins/create-admin (POST)
-
+```json
 Request body:
 
 {
@@ -151,21 +152,22 @@ Request body:
  "phoneNumber":"01711111111",
  "address": "Uganda",
 }
-
+```
 Route: /api/v1/admins/login (POST)
-
+```json
 Request body:
 
 {
-  "phoneNumber": "01711111111",
-  "password": "amiadmin"
+  "phoneNumber": "011119",
+  "password": "abrakadabra"
 }
-
+```
 Route: /api/v1/orders (POST)
 
 Request body:
-
+```json
 {
-  "cow": "ObjectId(“6473c6a50c56d0d40b9bb6a3)", // cow reference _id
-  "buyer": "ObjectId(“6473c6a50c56d0d40b9bb6a3)" // user reference  _id
+  "cow": "ObjectId(“649fccbfb87425bd50df721b)", // cow reference _id
+  "buyer": "ObjectId(“64a1094931b4d8884acaaa0b)" // user reference  _id
 }
+```
